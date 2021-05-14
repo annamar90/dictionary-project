@@ -18,6 +18,8 @@ export default function App() {
       <footer className="App-footer">
         <small>
         Coded by Anna Marasso
+        <br/>
+        <a href="https://github.com/annamar90/dictionary-project" id="githublink"> See it on GitHub 🔎</a>
         </small>
       </footer>
       </div>
