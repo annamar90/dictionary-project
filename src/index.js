@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import './fonts/beon-17325/BeonMedium-7Z34.ttf';
+
 
 ReactDOM.render(
   <React.StrictMode>
