@@ -1,4 +1,22 @@
 
-.Dictionary {
-    color: white;
+.Dictionary section{
+    color:black;
+    background-color:#cff1ef;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px rgba(0,0,0/10%);
+    margin: 20px 0;
 }
+
+.SearchBar {
+    width: 100%;
+    padding: 6px 4px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.Hint {
+    font-size: 11px;
+    margin-top: 5px;
+}
+

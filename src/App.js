@@ -13,14 +13,14 @@ export default function App() {
       </header>
 
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="welcome"/>
       </main>
 
       <footer className="App-footer">
         <small>
         Coded by Anna Marasso
         <br/>
-        <a href="https://github.com/annamar90/dictionary-project" id="githublink"> See it on GitHub 🔎</a>
+        <a href="https://github.com/annamar90/dictionary-project" className="githublink">See it on GitHub</a>
         </small>
       </footer>
       </div>

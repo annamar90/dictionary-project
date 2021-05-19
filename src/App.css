@@ -28,7 +28,7 @@ html {
 }
 
 .InfoApp {
-  color: #a9e6e6;
+  color: #84CEEb;
   text-align: center;
   font-family: "myFont";
   font-size: 100px;
@@ -47,18 +47,27 @@ html {
 
 .App-footer {
   text-align: center;
+  font-style: normal;
+  font-family: 'Lucida COnsole';
   margin: 30px 0;
-  color: #f70776;
+  color: #52de97;
 }
 
 
-.signature {
-  color: white;
-  font-style: italic;
-  font-size: 0.5em;
+.githublink {
+  color: #f6499a;
+  font-style: normal;
+  font-family: 'Lucida Console';
+  text-decoration: underline;
+  font-size: 0.9em;
   position: relative;
   text-align: center;
   bottom: 0px;
   margin: auto;
-  width: 94%;
+  width: 84%;
+}
+
+.githublink:hover {
+  color: #fa9905;
+  transition: 0.3s;
 }
