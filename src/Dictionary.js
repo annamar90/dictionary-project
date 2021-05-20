@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 
+
 export default function Dictionary(props){
     let [keyword, setKeyword] = useState(props.defaultKeyword);
     let [results, setResults]  = useState(null);
@@ -40,6 +41,7 @@ export default function Dictionary(props){
         <div className="Dictionary"> 
             <section>
             <h1>What word do you want to look up?</h1>
+           
             <form onSubmit={handleSubmit}>
                 <input type="search" className="SearchBar" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
             </form> 

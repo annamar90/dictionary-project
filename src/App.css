@@ -1,6 +1,6 @@
 body,
 html {
-  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  background-image: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
   min-height: 100vh;
   margin: 0;
   background-repeat: no-repeat;
@@ -28,10 +28,17 @@ html {
 }
 
 .InfoApp {
-  color: #84CEEb;
+  color: #ff2079;
   text-align: center;
   font-family: "myFont";
   font-size: 100px;
+}
+
+.SubApp {
+  color: #c7ffd8;
+  text-align: center;
+  font-family: "myFont";
+  font-size: 50px;
 }
 
 @font-face {
@@ -41,24 +48,32 @@ html {
   font-weight: normal;
 }
 
-.Dictionary {
-  color: white;
+
+
+.img-pcbot-icon2 {
+  max-width: 70px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
 }
 
 .App-footer {
   text-align: center;
   font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
   font-family: 'Lucida COnsole';
   margin: 30px 0;
-  color: #52de97;
+  color: #ff2079;
 }
 
 
 .githublink {
-  color: #f6499a;
+  color: #fa9905;
   font-style: normal;
   font-family: 'Lucida Console';
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 0.9em;
   position: relative;
   text-align: center;
@@ -68,6 +83,7 @@ html {
 }
 
 .githublink:hover {
-  color: #fa9905;
+  color: #ff2079;
+  font-style: italic;
   transition: 0.3s;
 }

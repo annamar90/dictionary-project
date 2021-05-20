@@ -4,12 +4,13 @@
     margin-bottom: 20px;
 }
 
-.Dictionary section{
-    color:black;
-    background-color:#cff1ef;
+
+.Dictionary section {
+    color: white;
+    background: linear-gradient(112.5deg, rgb(95, 10, 135) 11.4%, rgb(164, 80, 139) 60.2%);
     padding: 30px;
     border-radius: 6px;
-    box-shadow: 0 10px 10px rgba(0,0,0/10%);
+    box-shadow: 0 10px 10px rgba(0, 0, 0/10%);
     margin: 20px 0;
 }
 
@@ -24,4 +25,3 @@
     font-size: 13px;
     margin-top: 5px;
 }
-

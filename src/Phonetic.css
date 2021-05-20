@@ -1,30 +1,30 @@
 .Phonetic {
-   margin-bottom: 30px; 
-   margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .Phonetic a {
-    background-color: white;
-    color: violet;
+    background: linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
+    color: white;
     text-decoration: none;
     border: 3px solid;
-    border-color: blue;
+    border-color: white;
     padding: 8px 15px;
     border-radius: 20px;
     transition: all 150ms ease-in-out;
     margin-right: 20px;
     font-weight: bold;
-    
+
 }
 
 .Phonetic a:hover {
-    background-color:violet;
-    color:white;
+    border-color: none;
+    background: white;
+    color: #FF716E;
 }
 
 .Phonetic .text {
-    color: black;
+    color: white;
     opacity: 0.7;
     font-weight: bold;
 }
-
