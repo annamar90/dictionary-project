@@ -4,6 +4,7 @@ import bot from "./pcbot-icon2.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
+
 export default function App() {
   return (
     <div className="App">
