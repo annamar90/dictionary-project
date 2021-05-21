@@ -3,28 +3,22 @@
     margin-top: 20px;
 }
 
-.Phonetic a {
-    background: linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
-    color: white;
-    text-decoration: none;
-    border: 3px solid;
-    border-color: white;
-    padding: 8px 15px;
-    border-radius: 20px;
-    transition: all 150ms ease-in-out;
-    margin-right: 20px;
-    font-weight: bold;
-
+.img-audiobot-icon {
+    max-width: 70px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform .2s;
 }
 
-.Phonetic a:hover {
-    border-color: none;
-    background: white;
-    color: #FF716E;
+.img-audiobot-icon:hover {
+    transform: scale(1.2);
+    cursor:pointer;
 }
 
 .Phonetic .text {
     color: white;
     opacity: 0.7;
     font-weight: bold;
+
 }

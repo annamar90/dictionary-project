@@ -54,8 +54,11 @@ export default function Dictionary(props){
     if(loaded) {
         return (
         <div className="Dictionary"> 
-        <img src={lookup} alt="lookup" className="img-searchbot-icon"/>
+        
             <section>
+            <div>  
+                 <img src={lookup} alt="lookup" className="img-searchbot-icon"/>
+            </div>
             <h1>What word do you want to look up?</h1>
            
             <form onSubmit={handleSubmit}>
@@ -63,8 +66,9 @@ export default function Dictionary(props){
             </form> 
             <div className="Hint">
                 suggested words: spaceship, alien, orbit
-            </div>  
-             </section>  
+            </div> 
+             </section>
+            
                 <Results results={results}/>
                 <Photos photos={photos}/>
             </div>

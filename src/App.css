@@ -70,9 +70,8 @@ html {
 .App-footer {
   text-align: center;
   font-style: normal;
-  font-weight: bold;
   text-decoration: none;
-  font-family: 'Lucida COnsole';
+  font-family:Arial, Helvetica, sans-serif;
   margin: 30px 0;
   color: #ff2079;
 }
@@ -81,7 +80,7 @@ html {
 .githublink {
   color: #fa9905;
   font-style: normal;
-  font-family: 'Lucida Console';
+  font-family:Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 0.9em;
   position: relative;
@@ -89,10 +88,10 @@ html {
   bottom: 0px;
   margin: auto;
   width: 84%;
+ 
 }
 
 .githublink:hover {
   color: #ff2079;
-  font-style: italic;
-  transition: 0.3s;
+  font-weight: bold;
 }
