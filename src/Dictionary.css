@@ -15,10 +15,19 @@
 }
 
 .SearchBar {
-    width: 100%;
-    padding: 6px 4px;
+    max-width: 90%;
+    min-width: 80%;
+    padding: 6px;
     border: 1px solid;
     border-radius: 6px;
+}
+
+.SearchButton {
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #151647;
+    background: #151647;
+    color: white;
 }
 
 .Hint {

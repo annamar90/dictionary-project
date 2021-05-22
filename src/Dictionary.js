@@ -63,7 +63,9 @@ export default function Dictionary(props){
            
             <form onSubmit={handleSubmit}>
                 <input type="search" className="SearchBar" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
+                <input type="submit" className="SearchButton" value="Search"/>
             </form> 
+
             <div className="Hint">
                 suggested words: spaceship, alien, orbit
             </div> 
