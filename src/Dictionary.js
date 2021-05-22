@@ -62,8 +62,17 @@ export default function Dictionary(props){
             <h1>What word do you want to look up?</h1>
            
             <form onSubmit={handleSubmit}>
-                <input type="search" className="SearchBar" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
-                <input type="submit" className="SearchButton" value="Search"/>
+            
+                <div class="row">
+                    <div class="col-10">
+                    <input type="search" className="SearchBar" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
+                    </div>
+                    <div class="col-2">
+                    <input type="submit" className="SearchButton" value="Search"/>
+                    </div>
+                </div>
+                
+            
             </form> 
 
             <div className="Hint">
