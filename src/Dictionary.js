@@ -64,10 +64,8 @@ export default function Dictionary(props){
             <form onSubmit={handleSubmit}>
             
                 <div class="searchRow row">
-                    <div class="col-10">
+                    <div class="col-12">
                     <input type="search" className="SearchBar" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
-                    </div>
-                    <div class="col-2">
                     <input type="submit" className="SearchButton" value="Search"/>
                     </div>
                 </div>

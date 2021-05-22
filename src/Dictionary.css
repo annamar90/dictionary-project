@@ -15,24 +15,23 @@
 }
 
 .SearchBar {
-    width:100%;
+    width:70%;
     padding: 6px;
-    padding-right: 0;
     border: 1px solid;
     border-radius: 6px;
 }
 
 .searchRow {
-    width: 90%;
+    width: 100%;
 }
 
 .SearchButton {
-    width: 100%;
+
     max-width: 6em;
     min-width: 4em;
     border-radius: 6px;
     padding: 6px;
-    padding-left: 0;
+    margin-left: 0.5em;
     border: 1px solid #151647;
     background: #151647;
     color: white;
