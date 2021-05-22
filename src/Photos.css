@@ -3,4 +3,9 @@
     border-radius: 4px;
     margin-bottom: 2em;
     margin-top: 2em;
+    transition: transform .2s;
+}
+
+.Photos img:hover{
+    transform: scale(1.1);
 }
